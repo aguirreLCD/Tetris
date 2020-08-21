@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Pixel";
+  src: url("./assets/font/Pixel-LCD-7.woff") format("woff");
+}
+
+.App {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 100%;
+  }
+
+  .App {
+    max-width: 100%;
+  }
+}
